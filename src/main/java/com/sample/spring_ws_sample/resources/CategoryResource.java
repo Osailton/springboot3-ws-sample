@@ -13,7 +13,7 @@ import com.sample.spring_ws_sample.model.entities.Category;
 import com.sample.spring_ws_sample.services.CategoryService;
 
 @RestController
-@RequestMapping(value = "categories")
+@RequestMapping(value = "/categories")
 public class CategoryResource {
 	
 	@Autowired

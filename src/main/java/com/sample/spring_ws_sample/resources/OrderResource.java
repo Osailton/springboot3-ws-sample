@@ -13,7 +13,7 @@ import com.sample.spring_ws_sample.model.entities.Order;
 import com.sample.spring_ws_sample.services.OrderService;
 
 @RestController
-@RequestMapping(value = "orders")
+@RequestMapping(value = "/orders")
 public class OrderResource {
 	
 	@Autowired

@@ -13,7 +13,7 @@ import com.sample.spring_ws_sample.model.entities.Product;
 import com.sample.spring_ws_sample.services.ProductService;
 
 @RestController
-@RequestMapping(value = "products")
+@RequestMapping(value = "/products")
 public class ProductResource {
 	
 	@Autowired
